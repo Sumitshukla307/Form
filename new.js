@@ -197,7 +197,7 @@ const addData = () => {
 const showData = ()=>{
    let str = `<tr><th>UserId</th><th>Full Name</th><th>Father Name</th><th>Age</th><th>City</th></tr>`;
    for(let i=0;i<names.length;i++){
-     str+= `<tr><td>@${names[i].split(" ").join("")}${i+1}</td><td>${names[i]}</td><td>${fnames[i]}</td><td>${ages[i]}</td><td>${cities[i]}</td></tr>`
+     str+= `<tr><td> @${names[i].split(" ").join("")}${i+1}</td><td> ${names[i]}</td><td>${fnames[i]}</td><td> ${ages[i]}</td><td> ${cities[i]}</td></tr>`
    }
    document.getElementById('tableData').innerHTML = str
    
