@@ -150,25 +150,25 @@ console.log("Loop has end");
         }
     }
 }
-// {
-//     console.log('Q.2 Create a game where you start with any random game number ask the user to key guessing the  game number until the user the correct value \nAns.');
-//     let gameNumber = 25;
-//     let userNum = prompt("guess the game number:");
-//     while(userNum!=gameNumber){
-//         userNum = prompt("you enter wrong number. Guess Again")
-//     }
-//     alert("Congratulations, You enter the Right number ")
+ {
+     console.log('Q.2 Create a game where you start with any random game number ask the user to key guessing the  game number until the user the correct value \nAns.');
+     let gameNumber = 25;
+     let userNum = prompt("guess the game number:");
+     while(userNum!=gameNumber){
+         userNum = prompt("you enter wrong number. Guess Again")
+     }
+     alert("Congratulations, You enter the Right number ")
 
-// }
-// {
-//     console.log("Q.3 Prompt the user to enter thir full name , Generate a user name for them based on the input\n Start user name with @ Followed by their full name and ending with the full name length\nAns. ");
-//     let firstName = prompt("Enter the Full Name");
-//     let rev =  firstName.split(" ").join("");
-//     rev = rev.toLowerCase();
+ }
+ {
+     console.log("Q.3 Prompt the user to enter thir full name , Generate a user name for them based on the input\n Start user name with @ Followed by their full name and ending with the full name length\nAns. ");
+     let firstName = prompt("Enter the Full Name");
+     let rev =  firstName.split(" ").join("");
+     rev = rev.toLowerCase();
 
-//     let userName = "@"+rev+rev.length;
-//     alert(userName);
-// }
+     let userName = "@"+rev+rev.length;
+     alert(userName);
+ }
 
 let names=[];
 let fnames=[];
