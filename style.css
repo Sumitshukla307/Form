@@ -29,6 +29,13 @@ input{
 input::placeholder{
     padding-left: 1rem;
 }
+#city{
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-left: 2%;
+    width: 25%;
+    height: 20px;
+}
 button{
     margin: 10px 0 0 9px;
     height: 30px;
